@@ -1,0 +1,36 @@
+<pre>
+==>To make folder git repository and pushing code
+git init   
+git branch -M main
+git remote add origin https://github.com/nemalipuri10/second-project.git
+git add README.md
+
+==> to see file changes in your system
+git status    
+
+==>to save local file changes
+git commit -m "first commit" 
+
+===> to push your local changes to Server(github)
+git push -u origin <branchName>
+
+==> To get changes from remote branch to local branch
+(here both local and remote branches are same)
+git pull origin <branchName_sameBranch>
+
+==> To get changes from other branch to your local branch
+(here both branches are different)
+git pull origin <branchName_requiredBranchName>
+
+==> To create new branch from the given branch
+git checkout -b <branchName>
+
+==> To switch between branches
+git checkout <branchName>
+
+==> To push new branch to Repository
+git push -u origin <branchName>
+
+==> To push commits to existing branch
+git push origin <branchName>
+</pre>
